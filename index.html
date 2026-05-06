@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GLP Kompass Support</title>
+  <meta name="description" content="Support, Datenschutz und App-Store-Informationen für GLP Kompass.">
+  <style>
+    :root { color-scheme: light; --ink:#17211d; --muted:#52635b; --bg:#f7f4ee; --card:#fffdf8; --accent:#6f8d73; --line:#ded8ce; }
+    * { box-sizing: border-box; }
+    body { margin:0; font:16px/1.6 -apple-system,BlinkMacSystemFont,"SF Pro Text",Segoe UI,sans-serif; background:var(--bg); color:var(--ink); }
+    header { padding:64px 24px 36px; background:linear-gradient(180deg,#fbf8f1 0%,#f7f4ee 100%); border-bottom:1px solid var(--line); }
+    main { max-width:880px; margin:0 auto; padding:36px 24px 72px; }
+    .hero { max-width:880px; margin:0 auto; }
+    .eyebrow { color:var(--accent); text-transform:uppercase; letter-spacing:.12em; font-weight:700; font-size:13px; }
+    h1 { font-size: clamp(34px, 6vw, 64px); line-height:1.02; margin:10px 0 18px; letter-spacing:-.04em; }
+    h2 { font-size:28px; line-height:1.18; margin:36px 0 12px; letter-spacing:-.02em; }
+    p, li { color:var(--muted); }
+    a { color:#355f40; font-weight:650; }
+    .cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:16px; margin:28px 0; }
+    .card { background:var(--card); border:1px solid var(--line); border-radius:22px; padding:22px; box-shadow:0 14px 36px rgba(40,35,25,.06); }
+    .button { display:inline-block; padding:12px 16px; background:#24372b; color:white; border-radius:999px; text-decoration:none; margin-top:8px; }
+    footer { border-top:1px solid var(--line); padding:24px; color:var(--muted); font-size:14px; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="hero">
+      <div class="eyebrow">GLP Kompass</div>
+      <h1>Support, Datenschutz und Review-Informationen.</h1>
+      <p>GLP Kompass ist ein lokales Journal für GLP-Routinen, Gewichtseinträge, Check-ins, Injektionsstellen, Erinnerungen und Arztbericht-Vorbereitung.</p>
+    </div>
+  </header>
+  <main>
+    <section class="cards" aria-label="Support links">
+      <article class="card">
+        <h2>Support</h2>
+        <p>Für Fragen, Fehlerberichte oder App-Review-Rückfragen steht die öffentliche Support-Seite bereit.</p>
+        <a class="button" href="support.html">Support öffnen</a>
+      </article>
+      <article class="card">
+        <h2>Datenschutz</h2>
+        <p>Die Datenschutzrichtlinie erklärt lokale Speicherung, HealthKit-Nutzung, StoreKit und medizinische Grenzen.</p>
+        <a class="button" href="privacy.html">Datenschutz lesen</a>
+      </article>
+    </section>
+
+    <h2>Medizinischer Hinweis</h2>
+    <p>GLP Kompass ist kein Medizinprodukt. Die App stellt keine Diagnosen, empfiehlt keine Medikamente, gibt keine Dosierungsempfehlungen und ersetzt keine ärztliche Beratung.</p>
+  </main>
+  <footer>© 2026 Marc Hammerschmidt · GLP Kompass</footer>
+</body>
+</html>
