@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://marchamm1805.github.io/glp-kompass-support/sitemap.xml
